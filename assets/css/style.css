@@ -1,0 +1,339 @@
+html{
+  position:relative; 
+  min-height: 100%;
+}
+body{
+	width: 960px;
+	min-width: 100%;
+	background-image: url("../images/fabric_plaid.png");
+	margin:0;
+}
+.font{
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/*------------Header Bar --------------*/
+
+.header{
+	font-family: 'Georgia', Times New Roman, serif;
+	width: 100%;
+	height: 100px;
+	background-color: #ffffff;
+	border-bottom: 3px;
+	border-bottom-style: solid;
+	border-color: #cccccc;
+	overflow: hidden;
+	
+}
+.header nav ul li{
+	display: inline;
+	float:right;
+	padding: 10px;
+	font-size: 20px;
+	color: #cccccc;
+	font-weight: bold;
+}
+.header nav{
+	margin-right: 230px;
+	margin-top: 25px;
+}
+.logo{
+	float:left;
+	font-size: 50px;
+	padding: 25px;
+	background-color: #4aaaa5;
+	margin-left: 279px;
+	color: white;
+	font-weight: bold;
+}
+/*------------------------------------*/
+
+/*-------------Main------------------*/
+.container{
+	height: 700px;
+	min-height: 100%;
+	max-width: 960px;
+	margin:0 auto;
+}
+.main{
+	width:66%;
+	height: 450px;
+	background-color: #ffffff;
+	border: 2px solid #cccccc;
+}
+
+.main{
+	float: left;
+	margin: 70px 0 0 0;
+}
+/*---------------MainContact----------------*/
+.containerContact{
+	height: 800px;
+	min-height: 100%;
+	max-width: 960px;
+	margin:0 auto;
+}
+.mainContact{
+	width:650px;
+	height: 550px;
+	background-color: #ffffff;
+	border: 2px solid #cccccc;
+}
+.mainContact{
+	float: left;
+	margin: 70px 0 0 0;
+}
+
+/*---------------side----------------*/
+.side
+{
+	float: left;
+	margin: 70px 0 0 25px;
+	width:270px;
+	height: 170px;
+	background-color: #ffffff;
+	border: 2px solid #cccccc;
+}
+.side h3{
+	color: #4aaaa5;
+	font-weight: bold;	
+	border-bottom: 3px solid #cccccc;
+	text-align: center;
+	font-size: 20px;
+	display: inline-block;
+    width: 60%;
+   	padding:20px 20px 20px 23px; 
+   	margin:0 0 0 25px;
+    border-radius: 2px;
+}
+.socialLinks li{
+	display: inline;
+}
+.socialLinks ul{
+	padding-left: 15px;
+	margin: 5px 5px 0px 0px;
+}
+.side img{
+	margin:0px;
+	padding: 0px;
+}
+.side .imgGit{
+	margin: 10px 0 0 13px;
+	height: 60px;
+	width: 65px;
+}
+.side .imgLink{
+	height: 60px;
+	width: 65px;
+}
+.side .imgStack{
+	height: 60px;
+	width: 60px;
+}
+
+
+/*------------About Me--------------*/
+.main img,
+.main p1{
+	margin-left: 40px;
+	margin-top: 10px;
+}
+.main h1{
+	width: 80%;
+	padding-bottom: 30px;
+	color: #4aaaa5;
+	font-size: 25px;
+	font-weight: bold;
+	margin:40px 0 30px 40px;
+	border-bottom-style: solid;
+	border-color: #cccccc;
+	border-radius: 2px;
+	border-width: 3px;
+}
+.main img{
+	width: 250px;
+}
+.main p{
+	width: 325px;
+	float: right;
+	line-height: 30px;
+	display: block;
+	margin-right: 10px;
+}
+.main p1{
+	margin-top: 5px;
+	display: inline-block;
+	line-height: 30px;
+}
+
+/*------------------------------------*/
+
+/*--------------Contact---------------*/
+.mainContact h1{
+	margin-left: 40px;
+	margin-top: 10px;
+}
+.mainContact h1{
+	width: 80%;
+	padding-bottom: 30px;
+	color: #4aaaa5;
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 40px;
+	border-bottom-style: solid;
+	border-color: #cccccc;
+	border-radius: 2px;
+	border-bottom: 3px solid #cccccc;
+}
+.mainContact h4{
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+.contactName{
+	width: 500px;
+	height: 25px;
+	margin: 5px 0 0 0;
+}
+.contactEmail{
+	width: 500px;
+	height: 25px;
+	margin: 5px 0 0 0;
+}
+.contactMessage{
+	width: 500px;
+	height: 150px;
+	margin: 5px 0 0 0;
+}
+.contactSubmit{
+	display: block;
+	margin: 20px 0 0 0;
+	background-color: #4aaaa5;
+	border:none;
+	color: white;
+	padding: 10px 30px;
+}
+.mainContact form{
+	margin: 30px 0 0 40px;
+}
+
+
+/*------------------------------------*/
+
+/*----------------Portfolio-----------*/
+.containerPortfolio{
+	height: 800px;
+	min-height: 100%;
+	max-width: 960px;
+	margin:0 auto;
+}
+
+.mainPortfolio h1{
+	margin-left: 40px;
+	margin-top: 10px;
+	width: 80%;
+	padding-bottom: 30px;
+	color: #4aaaa5;
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 40px;
+	border-bottom-style: solid;
+	border-color: #cccccc;
+	border-radius: 2px;
+	border-bottom: 3px solid #cccccc;
+}
+
+.mainPortfolio{
+	width:615px;
+	height: 650px;
+	background-color: #ffffff;
+	border: 2px solid #cccccc;
+	overflow: hidden;
+	float: left;
+	margin: 70px 0 0 0;
+}
+.mainPortfolio .mainLeft{ 
+	float:left;
+	height:80%;
+	width: 100%;
+	margin:-25px 0 0 0;
+ }
+
+ .mainLeft .mainProj1{
+ 	height: 130px;
+ 	width: 200px;
+ 	padding-left: 40px;
+ 	margin-right: 90px;
+ 	display: inline-block;
+ 	overflow: hidden;
+ }
+
+ .mainLeft .mainProj2{
+ 	height: 130px;
+ 	width: 200px;
+ 	display: inline-block;
+ 	margin:50px auto 0 auto;
+ 	overflow: hidden;
+ }
+ .mainLeft .mainProj3{
+ 	height: 130px;
+ 	width: 200px;
+ 	padding-left: 40px;
+ 	margin-right: 90px;
+ 	margin-top: 50px;
+ 	display: inline-block;
+ 	overflow: hidden;
+ }
+  .mainLeft .mainProj4{
+ 	height: 130px;
+ 	width: 200px;
+ 	display: inline-block;
+ 	margin:0 auto 0 auto;
+ 	overflow: hidden;
+ }
+
+ .mainLeft .mainProj5{
+ 	height: 130px;
+ 	width: 200px;
+ 	padding-left: 40px;
+ 	display: inline-block;
+ 	margin:50px auto 0 auto;
+ 	overflow: hidden;
+ }
+
+ .imgBar{
+ 	width: 200px;
+ 	height: 51px;
+ 	background-color: #4aaaa5;
+ 	position: absolute;
+ 	overflow: hidden;
+ 	margin-top: 70px;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	color: white;
+ }
+
+
+/*---------------Footer---------------*/
+.footer{
+	width: 100%;
+	height: 100px;
+	background-color: #666666;
+	border-top-style: solid;
+	border-color: #4aaaa5 ;
+	border-width: 10px;
+}
+.footer h6{
+	text-align: center;
+	color: #cccccc;
+	margin-top: 50px;
+}
+
+/*------------------------------------*/
+
+
+
+
+
+
+
